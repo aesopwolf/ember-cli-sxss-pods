@@ -1,6 +1,6 @@
-# Ember-cli-sass-pods
+# Ember-cli-sxss-pods
 
-Enjoy styling your pods with the sass style file in the pod directory.
+Enjoy styling your pods with the sass/scss style file in the pod directory.
 
 ## What is ember-cli-sxss-pods?
 Say you have a contacts route and contact-box component.
@@ -12,7 +12,7 @@ ember g route contacts -p
 ember g component contact-box -p
 ```
 
-**Then, use ember-cli-sass-pods power and generate styles:**
+**Then, use ember-cli-sxss-pods power and generate styles:**
 
 ```
 ember g sass contacts -p
