@@ -2,14 +2,18 @@
 
 Enjoy styling your pods with the sass style file in the pod directory.
 
-## What is ember-cli-sass-pods?
+## What is ember-cli-sxss-pods?
 Say you have a contacts route and contact-box component.
-##### Generate regular route and component:
+
+**Generate regular route and component:**
+
 ```
 ember g route contacts -p
 ember g component contact-box -p
 ```
-##### Then, use ember-cli-sass-pods power and generate styles:
+
+**Then, use ember-cli-sass-pods power and generate styles:**
+
 ```
 ember g sass contacts -p
 ember g sass components/contact-box -p
@@ -22,7 +26,8 @@ ember g scss contacts -p
 ember g scss components/contact-box -p
 ```
 
-##### Your awesome file structure would be:
+**Your awesome file structure would be:**
+
 ```
 app/
 
@@ -49,9 +54,9 @@ app/styles/[importFileName].scss
 
 ## Installation
 
-##### Install ember-cli-sass-pods
+##### Install ember-cli-sxss-pods
 
-* `ember install ember-cli-sass-pods`
+* `ember install ember-cli-sxss-pods`
 
 It will automatically install [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass#ember-cli-sass) sass preprocess package.
 
@@ -66,7 +71,7 @@ otherwise it would be:
 ```
 pods.scss
 ```
-Add import line into your main app scss file:
+Add import line into your main app scss/sass file:
 
 ```
 @import "[podModulePrefix] or pods";
